@@ -1,9 +1,7 @@
-package com.example.volley_juliangarrido_v2
+package com.example.volley_juliangarrido_v2.ui
 
-import android.app.Application
 import android.content.Context
 import android.util.Log
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -39,8 +37,6 @@ class SharedViewModel : ViewModel() {
         )
 
         queue.add(request)
-
-
     }
 
     fun newPersonaje(context: Context) {
